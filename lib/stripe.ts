@@ -15,7 +15,7 @@ export function getStripeClient() {
 
     if (!stripeClient) {
         stripeClient = new Stripe(secretKey, {
-            apiVersion: '2026-01-28.clover',
+            apiVersion: '2026-09-30.endive',
             typescript: true,
         });
     }
